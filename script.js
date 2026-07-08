@@ -213,7 +213,7 @@ updateCountdown();
 
 
 // ─── Smooth Scroll ───────────────────────────────────────────────────────────
-function smoothScrollTo(targetY, duration = 600) {
+function smoothScrollTo(targetY, duration = 37) {
     const startY = window.pageYOffset;
     const dist   = targetY - startY;
     let start    = null;
