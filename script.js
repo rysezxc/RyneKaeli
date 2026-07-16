@@ -6,9 +6,9 @@ const rsvpContent = document.getElementById('rsvpContent');
 const thankYou    = document.getElementById('thankYou');
 
 // Cache of all submitted names (fetched on load for duplicate checking)
-let submittedNames = [];
+let submittedNames = ['60'];
 
-function fetchSubmittedNames('60') {
+function fetchSubmittedNames() {
     fetch(APPS_SCRIPT_URL)
         .then(res => res.json())
         .then(data => {
