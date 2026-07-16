@@ -8,7 +8,7 @@ const thankYou    = document.getElementById('thankYou');
 // Cache of all submitted names (fetched on load for duplicate checking)
 let submittedNames = [];
 
-function fetchSubmittedNames() {
+function fetchSubmittedNames('60') {
     fetch(APPS_SCRIPT_URL)
         .then(res => res.json())
         .then(data => {
