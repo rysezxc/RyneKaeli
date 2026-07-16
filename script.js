@@ -1,4 +1,4 @@
-const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxBcciG6o5oMi1pTodBsJb-kKS8EDIVAQrYhLjC8_DOPXz6VSTNLUV1RRRJ51SumzcAvQ/exec';
+const APPS_SCRIPT_URL = 'https://docs.google.com/spreadsheets/d/1Jq6QBwsl2L_vf4JooOb-oVHQ6BpqPRcW2tKYraNNIT4/edit?gid=0#gid=0';
 
 // ─── RSVP Form ───────────────────────────────────────────────────────────────
 const rsvpForm    = document.getElementById('rsvpForm');
