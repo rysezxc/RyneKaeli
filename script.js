@@ -195,7 +195,7 @@ function loadGuestList() {
 
 
 // ─── Countdown Timer ─────────────────────────────────────────────────────────
-const targetDate = new Date('March 17, 2026 10:00:00').getTime();
+const targetDate = new Date('August 16, 2026 10:00:00').getTime();
 
 function updateCountdown() {
     const now  = new Date().getTime();
