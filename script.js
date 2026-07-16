@@ -1,4 +1,4 @@
-const APPS_SCRIPT_URL = 'https://script.googleusercontent.com/macros/echo?user_content_key=AUkAhnS_3OHts0PgLwYuE6d0fPT-jM3e9XwTm0ZTe5V8c0mmhET6GUu5tRNTdP9-cy8Y9sTquvgP92D_4Dw0WxV3NrGRmS1vWgiMSNkTBmBBhME3rLY5Z_llyw-cEVUBmUiS11tqSh3bnX1Qd2QrqcWTVLSXdiwDlyWzAEahkWw_N6RJ3jY-1h0hIznWJ9D0G6Gma4QFk2yEDi_px9cqE1dEvZ2g7LB0zPwnyuWFmE6-RPrXePplbm8DjEpcOMmTttcL3c2nh1fYq6bi7oXtFgT9d_yM07D1OQ&lib=MgDgYoE0QFTUvv6xEOMAP7kIMAWfG-4dX;
+const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzfIGtsHBy3l6QdFQatQOq0gwubGMkKIQFDcxKjKz28lONNOk43KSOgr7Gs2Qpck3Gy/exec';
 
 // ─── RSVP Form ───────────────────────────────────────────────────────────────
 const rsvpForm    = document.getElementById('rsvpForm');
