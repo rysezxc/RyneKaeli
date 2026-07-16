@@ -1,4 +1,4 @@
-const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzfIGtsHBy3l6QdFQatQOq0gwubGMkKIQFDcxKjKz28lONNOk43KSOgr7Gs2Qpck3Gy/exec';
+const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxBcciG6o5oMi1pTodBsJb-kKS8EDIVAQrYhLjC8_DOPXz6VSTNLUV1RRRJ51SumzcAvQ/exec';
 
 // ─── RSVP Form ───────────────────────────────────────────────────────────────
 const rsvpForm    = document.getElementById('rsvpForm');
@@ -9,7 +9,7 @@ const thankYou    = document.getElementById('thankYou');
 let submittedNames = [];
 
 function fetchSubmittedNames() {
-    fetch()
+    fetch(APPS_SCRIPT_URL)
         .then(res => res.json())
         .then(data => {
             submittedNames = (data.guests || []).map(g => g.name.trim().toLowerCase());
