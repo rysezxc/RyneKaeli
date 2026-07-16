@@ -1,6 +1,6 @@
 const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzfIGtsHBy3l6QdFQatQOq0gwubGMkKIQFDcxKjKz28lONNOk43KSOgr7Gs2Qpck3Gy/exec';
 
-// ─── RSVP Form ───────────────────────────────────────────────────────────────
+// ─── RSVP Form ────────a──────────────────────────────────────────────────────
 const rsvpForm    = document.getElementById('rsvpForm');
 const rsvpContent = document.getElementById('rsvpContent');
 const thankYou    = document.getElementById('thankYou');
