@@ -9,7 +9,7 @@ const thankYou    = document.getElementById('thankYou');
 let submittedNames = [];
 
 function fetchSubmittedNames() {
-    fetch(APPS_SCRIPT_URL)
+    fetch('https://script.google.com/macros/library/d/1glt7slKg6x4NmjjFI8qUJZM4whULoqTIZSZbZR39kvi8cDMbIQZ5Kh_g/1')
         .then(res => res.json())
         .then(data => {
             submittedNames = (data.guests || []).map(g => g.name.trim().toLowerCase());
